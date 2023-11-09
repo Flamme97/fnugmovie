@@ -1,6 +1,6 @@
 const MongoClient = require('mongodb').MongoClient;
 
-const url = 'mongodb+srv://test:test@cluster0.qikudpq.mongodb.net/?retryWrites=true&w=majority';
+const url = '
 const dbName = '0';
 
 MongoClient.connect(url, (error, client) => {
